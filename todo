@@ -1,0 +1,20 @@
+user create profile
+user reset password
+verify user profile
+models, controllers
+routes
+
+Item [
+ - type (file, folder),
+ - title
+ - size
+ - item_id (nullable),
+ - uploaded_by
+]
+- update folder size when new folder, file is created
+
+-create folder
+-create file
+- file would be  in a folder
+- folder can be in a folder
+- on load of a folder, get all files where item_id == folder_id
